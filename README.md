@@ -7,8 +7,11 @@ It has no knowledge or ability to edit stashes or items directly.
 All Move operations should be logged in case anything goes wrong.
 
 __NOTE: Stashes should not be moved while D2R is running.__
+
 D2R stores stash information in memory and will write to disk once closed.
-The script has a rudimentary check to prevent users from accidentally moving stashes while D2R is running.
+This script has a rudimentary check to prevent users from accidentally moving stashes while D2R is running.
+
+As always, backup your save folder while adopting a new tool like this.
 
 ## Setup
 1. Install [Python](https://www.python.org/) if you don't have it.
@@ -23,3 +26,11 @@ The script has a rudimentary check to prevent users from accidentally moving sta
     * Selecting the same stash a 2nd time will restore the original stash when the script was run.
 3. Exit by typing `e`.
     * If a stash is selected, it will be moved back to its original place and the original stash will be restored for use in-game.
+
+## Creating New Stashes
+1. When your shared stash is empty, copy it into the `shared-stashes` subfolder.
+    * The file should be named `SharedStashSoftCoreV2.d2i` within your D2R save directory.
+    * It doesn't _have_ to be empty, but are ya really gonna dupe items? :)
+    * You can create as many copies as you want to start a collection.
+2. Restart the stash manager.
+    * It has no ability to read new stashes as they are made.
