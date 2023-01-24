@@ -13,13 +13,13 @@ The script has a rudimentary check to prevent users from accidentally moving sta
 ## Setup
 1. Install [Python](https://www.python.org/) if you don't have it.
 2. Create a `shared-stashes` folder within your D2R save directory.
-  * This should be `C:\Users\<Name>\Saved Games\Diablo II Resurrected`.
-  * Other subfolder names can be used, but must be provided via the `--stash-subdir` CLI option.
+    * This should be `C:\Users\<Name>\Saved Games\Diablo II Resurrected`.
+    * Other subfolder names can be used, but must be provided via the `--stash-subdir` CLI option.
 
 ## How to Use
 1. Run `python.exe d2r-stash-mgr.py` from a command line window.
 2. Select the stash you would like to activate by typing its number.
-  * Once you are done with that stash, select another by entering a different number.
-  * Selecting the same stash a 2nd time will restore the original stash when the script was run.
+    * Once you are done with that stash, select another by entering a different number.
+    * Selecting the same stash a 2nd time will restore the original stash when the script was run.
 3. Exit by typing `e`.
-  * If a stash is selected, it will be moved back to its original place and the original stash will be restored for use in-game.
+    * If a stash is selected, it will be moved back to its original place and the original stash will be restored for use in-game.
