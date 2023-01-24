@@ -33,7 +33,7 @@ As always, backup your save folder while adopting a new tool like this.
 
 ## Creating New Stashes
 1. When your shared stash is empty, copy it into the `shared-stashes` subfolder.
-    * The file should be named `SharedStashSoftCoreV2.d2i` within your D2R save directory.
+    * The file should be named `SharedStashSoftCoreV2.d2i` within your D2R save directory (the copy can be named whatever you want).
     * It doesn't _have_ to be empty, but are ya really gonna dupe items? :)
     * You can create as many copies as you want to start a collection of stashes.
 2. Restart the stash manager.
