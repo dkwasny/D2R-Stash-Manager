@@ -2,7 +2,7 @@
 A simple stash manager for Diablo 2 Remastered.
 
 This script is a glorified file mover.
-All it does is swaps shared stash files around based on what stash the user wants to use in-game.
+All it does is swap shared stash files around based on what stash the user wants to use in-game.
 It has no knowledge or ability to edit stashes or items directly.
 All Move operations should be logged in case anything goes wrong.
 
